@@ -108,6 +108,8 @@ export const Card = styled.div`
   cursor: pointer;
   border: 1px solid rgba(0, 0, 0, 0.1);
   transition: 0.3s ease all;
+  margin-bottom: 20px;
+  height: inherit;
   &:hover {
     border-color: rgba(0, 0, 0, 0);
     box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.1);
